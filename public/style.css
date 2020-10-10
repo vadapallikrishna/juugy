@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  font-style: serif;
+}
+
+.title-nav {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 1px solid black;
+  background-color: #FFDEAD;
+}
+
+.title-nav p {
+  margin: 0px;
+}
+
+.searchbar {
+  width: 30vw;
+  height: 50px;
+  
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+
+.nav-menu {
+  width: 20vw;
+  margin: 0px;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+
+
+.g-avatar {
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
+
+.post-item {
+  display: block;
+  
+}
+
+.post-item-text {
+  font-size: 24px;
+}
+
+main {
+  margin: 10px;
+  text-align: center;
+}
+
+.e-avatar {
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
+.post-info {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 150px;
+}
+
+.searchbutton {
+  font-size: 34px;
+  background: transparent;
+  border:none;
+  position: relative;
+  top: 5px;
+  right: 50px;
+}
