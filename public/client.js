@@ -27,18 +27,40 @@ Vue.component('comments-view', function(resolve){
   loadHtml("comments-view.html", resolve)
 })
 
+Vue.component('editor', function(resolve){
+  loadHtml("editor.html", resolve)
+})
+
+Vue.component('aside-trending', function(resolve){
+  loadHtml("aside-trending.html", resolve)
+})
+
+Vue.component("post-small", function(resolve){
+  loadHtml("post-small.html", resolve)
+})
+
 Vue.component('index-main',function(resolve){
   loadHtml("main.html", resolve)
 });
 
 Vue.component('post-view',function(resolve){
   loadHtml("post-view.html", resolve)
-})
+});
+
+Vue.component('new-post', function(resolve){
+  loadHtml("new.html", resolve)
+});
+
+Vue.component('login', function(resolve){
+  loadHtml("login.html", resolve)
+});
 
 var router = new VueRouter({
   routes: [
     {path: '/', component:Vue.component('index-main')},
-    {path: "/post-view", component:Vue.component('post-view')}
+    {path: "/post/new", component:Vue.component('new-post')},
+    {path: "/post/:id", component:Vue.component('post-view')},
+    {path: "/login", component:Vue.component("login")}
   ]
 })
 
