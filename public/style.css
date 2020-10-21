@@ -1,0 +1,238 @@
+body {
+  margin: 0px;
+  font-family: helvetica;
+}
+
+.content-index {
+  display:flex;
+}
+
+
+
+.padding-left-20 {
+  padding-left: 20px;
+}
+
+.title-nav {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  padding-left: 20px;
+  background: gainsbro;
+}
+
+.topic-nav {
+  background: whitesmoke;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.title-nav p {
+  margin: 0px;
+  position: relative;
+  top:10px;
+}
+
+.searchbar {
+  width: 30vw;
+  height: 50px;
+  
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+
+
+
+.nav-menu {
+  width: 20vw;
+  margin: 0px;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+
+
+.g-avatar {
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
+
+.post-item {
+  display: flex;
+  
+  width: 60vw;
+  justify-content: space-around;
+}
+
+.post-small{
+  width: 20vw;
+  margin: 10px;
+}
+
+.post-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item-text {
+  font-size: 18px;
+}
+
+.post-title {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+section {
+  margin: 15px;
+}
+
+.e-avatar, .c-avatar {
+  background-color: lightgrey;
+  border-radius: 25px;
+}
+
+.post-img {
+  background: lightgrey;
+}
+
+.post-info, .comment-info {
+  display: flex;
+  flex-direction:row;
+  white-space: nowrap;
+}
+
+.post-info > *, .comment-info > * {
+   margin-left: 10px;
+}
+
+.post-info p {
+  margin: 0px;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.post-info > img {
+  position: relative;
+  top: 5px;
+}
+
+.post-item-text {
+  margin-top: 8px;
+  font-size: 18px;
+  color: grey;
+  overflow:hidden;
+  height: 80px;
+  width: 350px;
+  text-overflow:elipisis;
+}
+
+
+.post-info > .e-name {
+  position: relative;
+  top: 5px;
+}
+
+.searchbutton {
+  font-size: 34px;
+  background: transparent;
+  border:none;
+  position: relative;
+  top: 5px;
+  right: 50px;
+}
+
+.tag {
+  background-color: palegoldenrod;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.post-view {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+textarea {
+  width: 600px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.comments {
+  margin-left: 100px;
+}
+
+.editor {
+  display:flex;
+  flex-direction: column;
+}
+
+.editor > .title {
+  font-size: 34px;
+  padding: 10px;
+}
+
+.editor > .content {
+  width:100%;
+  height:50vh;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.editor-float-menu {
+  font-size: 20px;
+  display:inline-flex;
+  background: lightgray;
+  padding: 10px;
+  border: 1px solid lightgray;
+  position: absolute;
+  border-radius: 5px
+}
+
+.editor-float-menu > button{
+  background: transparent;
+  border: none;
+}
+
+.editor-float-menu p{
+  margin:0px;
+}
+
+.login-detail {
+  width: 500px;
+  height: 40vh;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:15px;
+  margin-top: 10vw;
+  margin-left: 25vw;
+}
+
+input {
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 10px;
+  
+}
+
+form > div {
+  margin: 10px;
+}
+
+button {
+  border: 1px solid grey;
+  font-size: 22px;
+  border-radius: 5px;
+  background: lightgray;
+  padding:10px;
+}
