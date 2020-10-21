@@ -20,7 +20,8 @@ body {
   font-size: 24px;
   padding: 10px;
   padding-left: 20px;
-  background: gainsbro;
+  background: gainsboro;
+  border-bottom: 1px solid lightgray;
 }
 
 .topic-nav {
@@ -38,8 +39,8 @@ body {
 .searchbar {
   width: 30vw;
   height: 50px;
-  
-  border: 2px solid gray;
+  background-color: whitesmoke;
+  border: 2px solid lightgray;
   border-radius: 20px;
 }
 
@@ -235,4 +236,66 @@ button {
   border-radius: 5px;
   background: lightgray;
   padding:10px;
+}
+
+.author-view {
+  background:whitesmoke;
+}
+
+.author-header{
+  width: 30vw;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.a-avatar{
+  border-radius:50px;
+  background-color:lightgray;
+}
+
+.a-name{
+  font-size:28px;
+}
+
+.profile-actions {
+  position: relative;
+  left: 10vw;
+}
+
+.post {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+.post-view .post-info {
+  width: unset;
+  justify-content: center;
+  font-size: 34px;
+}
+
+.post-info .post-title {
+  font-size: 34px;
+}
+
+.post-info .e-avatar {
+  margin-left: 10px;
+}
+
+.login-info {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  
+}
+
+button.comment {
+  background-color: coral;
+  position: relative;
+  top:-50px;
+  left:-150px;
+  
 }

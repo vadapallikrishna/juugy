@@ -55,12 +55,17 @@ Vue.component('login', function(resolve){
   loadHtml("login.html", resolve)
 });
 
+Vue.component('author', function(resolve){
+  loadHtml("author.html", resolve)
+});
+
 var router = new VueRouter({
   routes: [
     {path: '/', component:Vue.component('index-main')},
     {path: "/post/new", component:Vue.component('new-post')},
     {path: "/post/:id", component:Vue.component('post-view')},
-    {path: "/login", component:Vue.component("login")}
+    {path: "/login", component:Vue.component("login")},
+    {path: "/author/:name", component:Vue.component("author")}
   ]
 })
 
